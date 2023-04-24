@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
-    default     =  "anusha" 
+    default     =  "pinkkeypair" 
 }
 
 variable "instance_type" { 
@@ -39,7 +39,7 @@ variable "acl" {
 variable "bucket_prefix" {
     type        = string
     description = "(required since we are not using 'bucket') Creates a unique bucket name beginning with the specified prefix"
-    default     = "anushabucketnew"
+    default     = "anusha-bucket-new-s3"
 }
 variable "tags" {
     type        = map
