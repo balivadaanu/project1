@@ -3,6 +3,6 @@ terraform {
     bucket = "anusha-bucket1"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "anudb"
+    dynamodb_table = "anudb1"
   }
 }
