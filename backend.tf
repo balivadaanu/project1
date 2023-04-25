@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "anusha-bucket1"
+    bucket = "anu-back-up"
     key = "main"
     region = "ap-south-1"
     dynamodb_table = "anudb1"
